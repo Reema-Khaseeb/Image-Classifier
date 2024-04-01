@@ -1,5 +1,5 @@
 # Image Classifier Project
-This project is an implementation of an image classifier built with PyTorch. The classifier can be trained on any set of labeled images. Here we focus on classifying different species of flowers. The model, once trained, can be used to predict the class of new images.
+This project is an implementation of an image classifier built with PyTorch. The classifier can be trained on any set of labeled images. Here we focus on classifying different species of flowers. The model, once trained, can be used to predict the class of new images. There are 102 classes. I utilized 41 class in my notebook
 
 ## Setup
 Ensure you have Python 3.8+ and PyTorch installed. You can install the required libraries using `pip`:
@@ -50,7 +50,7 @@ python predict.py "path/to/image" "path/to/checkpoint" --top_k 3 --category_name
 # Dataset
 The dataset should be split into three parts: training, validation, and testing. Each part should have subdirectories for each category (i.e., type of flower). For example:
 ```sh
-flower_data/
+flowers_data/
   train/
     1/
     2/
