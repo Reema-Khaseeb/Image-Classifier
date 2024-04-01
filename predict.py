@@ -1,5 +1,7 @@
 import argparse
-import predict_utils  # utility file for functions used in prediction
+import torch
+from utils.predict_utils import load_checkpoint, predict
+
 
 # Parse command line arguments
 parser = argparse.ArgumentParser(description='Predict flower name from an image with a trained network.')

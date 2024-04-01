@@ -1,6 +1,6 @@
 import argparse
 import torch
-import train_utils
+from utils import train_utils
 import os
 
 def main():
